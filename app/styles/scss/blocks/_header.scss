@@ -1,0 +1,21 @@
+.header {
+    background: #47af71;
+
+    width: 100%;
+    display: flex;
+    &__coll {
+
+        padding: 5px;
+        height: 80px;
+        width: 50%;
+        display: flex;
+        &-item {
+            background: plum;
+            height: 30px;
+            width: 50%;
+            text-align: left;
+        }
+
+    }
+}
+

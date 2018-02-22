@@ -1,0 +1,29 @@
+@font-face{
+    font-family: 'Gilroy';
+    src: url('../../../fonts/Gilroy-ExtraBold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Gilroy';
+    src: url('../../../fonts/Gilroy-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    max-width: 1920px;
+    background: $grey;
+    font-family: 'Gilroy';
+    font-weight: normal;
+    padding: 60px 30px;
+}
+.container {
+    max-width: 1410px;
+    margin: auto;
+}
+
+
+.h3{
+    color: #555;
+
+}
